@@ -1,0 +1,15 @@
+.paddle {
+    position: absolute;
+    top: 460px;
+    width: 50px;
+    height: 150px;
+    background-image:url(pongPaddle.png);
+}
+
+#paddle1 {
+    left: 0px;
+}
+
+#paddle2 {
+    right: 0px;
+}
