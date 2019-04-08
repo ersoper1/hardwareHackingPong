@@ -25,16 +25,16 @@ function startBall() {
 };
 document.addEventListener('keydown', function (e) {
      if (e.keyCode == 87 || e.which == 87) { // W key
-      speedOfPaddle1 = -20;
+      speedOfPaddle1 = -15;
      }
      if (e.keyCode == 83 || e.which == 83) { // S Key
-      speedOfPaddle1 = 20;
+      speedOfPaddle1 = 15;
      }
      if (e.keyCode == 73 || e.which == 73) { // I arrow
-      speedOfPaddle2 = -20;
+      speedOfPaddle2 = -15;
      }
      if (e.keyCode == 75 || e.which == 75) { // K arrow
-      speedOfPaddle2 = 20;
+      speedOfPaddle2 = 15;
      }
 }, false);
 document.addEventListener('keyup', function (e) {
