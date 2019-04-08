@@ -30,10 +30,10 @@ document.addEventListener('keydown', function (e) {
      if (e.keyCode == 83 || e.which == 83) { // S Key
       speedOfPaddle1 = 10;
      }
-     if (e.keyCode == 73 || e.which == 73) { // up arrow
+     if (e.keyCode == 73 || e.which == 73) { // I arrow
       speedOfPaddle2 = -10;
      }
-     if (e.keyCode == 75 || e.which == 75) { // down arrow
+     if (e.keyCode == 75 || e.which == 75) { // K arrow
       speedOfPaddle2 = 10;
      }
 }, false);
