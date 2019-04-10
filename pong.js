@@ -31,7 +31,7 @@ document.addEventListener('keydown', function (e) {
       speedOfPaddle1 = 50;
      }
      if (e.keyCode == 73 || e.which == 73) { // I arrow
-      speedOfPaddle2 = 50;
+      speedOfPaddle2 = -50;
      }
      if (e.keyCode == 75 || e.which == 75) { // K arrow
       speedOfPaddle2 = 50;
